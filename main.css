@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: rgb(159, 200, 214);
+}
+.container{
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+    border: 1px solid green;
+}
+.container h3{
+    padding: 1.5rem 0;
+    font-weight: 200;
+    color: rgb(19, 35, 54);
+}
+.container h1{
+    color: rgb(19, 35, 54);
+    font-size: 40px; 
+    font-weight: bold;
+}
+.form{
+    margin: 2rem auto;
+    width: 80%;
+    padding: 2rem 0;
+    background: rgba(86, 152, 182, 0.877);
+    box-shadow: 1px 2px 2px 1px grey;
+    border-radius: 5px;
+}
+.form .hrLine{
+    height: 2px;
+    width: 90%;
+    margin: 1rem auto;
+    background:rgba(38, 70, 83, 0.596);
+}
