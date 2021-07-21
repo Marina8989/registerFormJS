@@ -13,12 +13,12 @@ body{
     padding: 2rem 0;
     border: 1px solid green;
 }
-.container h3{
+.container .container-head{
     padding: 1.5rem 0;
     font-weight: 200;
     color: rgb(19, 35, 54);
 }
-.container h1{
+.container .container-title{
     color: rgb(19, 35, 54);
     font-size: 40px; 
     font-weight: bold;
@@ -36,4 +36,35 @@ body{
     width: 90%;
     margin: 1rem auto;
     background:rgba(38, 70, 83, 0.596);
+}
+.basicInfo{
+    text-align: left;
+    padding: .3rem 0 1rem 2rem;
+    color: rgba(38, 70, 83, 0.596);
+}
+form{
+    width: 90%;
+    /* border: 1px solid green; */
+    margin: auto;
+    text-align: left;
+    padding: 1rem 0;
+}
+.label{
+    color:rgb(19, 35, 54);
+    font-size: 18px;
+}
+.input {
+    width: 100%;
+    padding: 1rem;
+    margin-top: .2rem;
+    border-radius: 3px;
+    border: 3px solid rgb(165, 165, 165);
+    box-shadow: 2px 2px 2px rgb(83, 83, 83);
+    background: lightgray;
+    outline: none;
+}
+.input:focus{
+     outline: none;
+     border: 3px solid lightblue;
+     background: white;
 }
