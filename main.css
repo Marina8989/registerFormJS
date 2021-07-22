@@ -153,3 +153,8 @@ form{
 .alarmFooter {
   display: none;
 }
+.total{
+    display: none;
+    color: rgb(33, 71, 33);
+    padding: 1rem 0;
+}

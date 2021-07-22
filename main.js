@@ -2,7 +2,12 @@ const inputName = document.querySelector('#name');
 const email = document.getElementById('email');
 const emailAlarm = document.querySelector('.emailAlarm');
 const alarmFooter = document.querySelector('.alarmFooter');
+let priceSpan = Array.from(document.getElementsByClassName('price'));
+const total = document.querySelector('.total');
+let sumSpan = document.querySelector('.sum');
 const btn = document.getElementById('btn');
+
+console.log(priceSpan);
 
 btn.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -41,3 +46,16 @@ function alarmBottom() {
        alarmFooter.style.display = 'none'; 
     }, 3000);
 }
+
+function getPrice() {
+   priceSpan.forEach((item, id)=> {
+       console.log(item);
+       console.log(item.innerText);
+       console.log(id);
+      item.parentElement.addEventListener('click', () => {
+        sumSpan.innerText = +sumSpan.innerText + +item.innerText;
+        total.style.display = 'block';
+      })
+   })
+}
+getPrice();
