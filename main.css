@@ -131,3 +131,12 @@ form{
 #btn:focus{
     outline: none;
 }
+.emailAlarm{
+    background: white;
+    border: 2px solid red;
+    border-radius: 3px;
+    text-align: center;
+    margin: .3rem 0;
+    padding: .2rem 0;
+    display: none;
+}
