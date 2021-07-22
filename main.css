@@ -11,7 +11,6 @@ body{
     margin: auto;
     text-align: center;
     padding: 2rem 0;
-    border: 1px solid green;
 }
 .container .container-head{
     padding: 1.5rem 0;
@@ -72,6 +71,31 @@ form{
 .jobInput {
     width: 40%;
     padding: .5rem;
+    margin-top: .2rem;
+    border-radius: 3px;
+    border: 3px solid rgb(165, 165, 165);
+    box-shadow: 2px 2px 2px 1px rgba(7, 4, 4, 0.664);
+    background: lightgray;
+    outline: none;
+    margin-bottom: 2rem;
+}
+.shirt{
+    display: flex;
+}
+.sizeInput {
+    width: 20%;
+    padding: .5rem 2rem;
+    margin-top: .2rem;
+    border-radius: 3px;
+    border: 3px solid rgb(165, 165, 165);
+    box-shadow: 2px 2px 2px 1px rgba(7, 4, 4, 0.664);
+    background: lightgray;
+    outline: none;
+    margin-bottom: 2rem;
+}
+.designInput {
+    width: 20%;
+    padding: .5rem 4rem;
     margin-top: .2rem;
     border-radius: 3px;
     border: 3px solid rgb(165, 165, 165);
