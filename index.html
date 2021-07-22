@@ -34,8 +34,10 @@
                    <option value="student">Student</option>
                    <option value="other">Other</option>
                </select>
+
             <div class="hrLine"></div>
             <h3 class="basicInfo">T-Shirt Info</h3>
+
              <div class="shirt">
                 <div>
                  <label for="size">Size:</label><br />
@@ -71,8 +73,10 @@
                     </select>
                 </div>
              </div>
+
             <div class="hrLine"></div>
             <h3 class="basicInfo">Register for Activities</h3>
+
               <div class="checklists">
                  <input type="checkbox" />
                  <label>Main Conference - $200</label>
@@ -101,7 +105,28 @@
                 <input type="checkbox" />
                 <label>npm Workshop - Wednesday 1pm-4pm, $100</label>
               </div>
-             
+              
+            <div class="hrLine"></div>
+            <h3 class="basicInfo">Payment Info</h3>
+
+            <label for="design">I'm going to pay with:</label><br />
+            <select name="design" id="design" class="designInput">
+                <option value="select">Select Payment Method</option>
+                <option value="cc">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+           <br />
+            <label for="cardnumber">Card Number:</label><br />
+            <input class="input" id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric">
+            <br/ >
+
+            <label for="zip">Zip Code:</label><br />
+            <input class="input" type="text" id="zip" pattern="[0-5]*" inputmode="numeric" />
+            <br />
+
+            <label for="cvv">CVV:</label>
+            <input class="input" type="text" id="cvv"/>
            </form>
        </div>
     </div>

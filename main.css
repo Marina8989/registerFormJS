@@ -39,7 +39,7 @@ body{
 .basicInfo{
     text-align: left;
     padding: .3rem 0 1rem 2rem;
-    color: rgba(38, 70, 83, 0.596);
+    color: rgba(16, 45, 56, 0.596);
 }
 form{
     width: 90%;
@@ -114,7 +114,4 @@ form{
     background: lightgray;
     outline: none;
     margin-bottom: 2rem;
-}
-.br {
-    padding-bottom: 1rem;
 }
